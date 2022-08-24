@@ -24,3 +24,25 @@ ul {
   padding: 0 10px;
   margin: 0 auto;
 }
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__link {
+  padding: 42px 20px 41px 18px;
+  text-transform: uppercase;
+}
+
+.menu__link.active {
+  background: #131313;
+  color: #fff;
+}
+
