@@ -39,10 +39,39 @@ ul {
 .menu__link {
   padding: 42px 20px 41px 18px;
   text-transform: uppercase;
+  transition: all .3s;
 }
 
-.menu__link.active {
+.menu__link:hover {
   background: #131313;
   color: #fff;
 }
 
+.advantages {
+  padding-top: 150px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.advantages__items {
+  display: flex;
+  flex-direction: column;
+  gap: 50px 0;
+
+}
+
+.advantages__item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantages__item-desc {
+  max-width: 450px;
+}
+
+.advantages__img {
+  margin-right: 60px;
+}
