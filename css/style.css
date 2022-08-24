@@ -75,3 +75,39 @@ ul {
 .advantages__img {
   margin-right: 60px;
 }
+
+.slider__item-images {
+
+}
+
+.gallery {
+  padding-top: 150px;
+}
+
+.gallery-slider {
+  padding-left: 50px;
+}
+
+.slick-dots {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.slick-dots button {
+  font-size: 0;
+  border: 0;
+  padding: 0;
+  width: 2px;
+  height: 25px;
+  background: #131313;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.slick-active button {
+  background: #FF4040;
+}
