@@ -121,3 +121,51 @@ ul {
 .slick-active button {
   background: #FF4040;
 }
+
+.specifications {
+  padding-top: 150px;
+}
+
+.specifications__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.specifications__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specifications-table {
+  max-width: 570px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+
+.specifications-table__head {
+  background: #131313;
+  color: #fff;
+  padding: 2px 3px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+
+}
+
+.specifications-table__body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
+}
+
+.specifications-table__body-item {
+  display: flex;
+}
+
+.specifications-table__col {
+  width: 50%;
+}
