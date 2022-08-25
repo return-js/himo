@@ -25,6 +25,20 @@ ul {
   margin: 0 auto;
 }
 
+.btn {
+  display: block;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0;
+  background: #131313;
+  padding: 28px 0;
+  width: 100%;
+
+}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -46,6 +60,45 @@ ul {
 .menu__link:hover {
   background: #131313;
   color: #fff;
+}
+
+.intro {
+  padding-top: 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro__stats {
+  width: 100%;
+}
+
+.intro__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.intro__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #6F6F6F;
+  margin-bottom: 80px;
+}
+
+.intro__body {
+  max-width: 420px;
+}
+
+.intro__body p {
+  margin-bottom: 20px;
+}
+
+.btn--intro {
+  margin-top: 60px;
 }
 
 .advantages {
@@ -168,4 +221,42 @@ ul {
 
 .specifications-table__col {
   width: 50%;
+}
+
+.footer {
+  padding: 20px 0;
+  background: #131313;
+  margin-top: 100px;
+}
+
+.copy {
+  color: #fff;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.networks {
+  display: flex;
+  gap: 0 28px;
+}
+
+
+.contacts {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.contacts a {
+  display: flex;
+  align-items: center;
+}
+
+.contacts img {
+  margin-right: 10px;
 }
