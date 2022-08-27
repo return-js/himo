@@ -1,6 +1,10 @@
 $(document).ready(function(){
-  $('.intro-slider').slick({
+  $('.bike-slider').slick({
     arrows: false,
+    dots: true,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 2000
   });
 
   $('.gallery-slider').slick({

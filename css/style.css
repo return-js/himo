@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -20,7 +22,7 @@ ul {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1220px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -62,43 +64,84 @@ ul {
   color: #fff;
 }
 
-.intro {
-  padding-top: 165px;
+.bike {
+  padding: 100px 0 150px;
+}
+
+.bike__inner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
 }
 
-.intro__stats {
-  width: 100%;
+.bike__column-slider {
+  flex-basis: 630px;
+  margin-left: 30px;
+  max-width: 630px;
 }
 
-.intro__title {
-  font-style: normal;
+.bike__title {
   font-weight: 700;
   font-size: 64px;
   line-height: 77px;
+  margin: 60px 0 5px;
 }
 
-.intro__subtitle {
-  font-style: normal;
-  font-weight: 400;
+.bike__subtitle {
+  margin: 0 0 60px;
   font-size: 32px;
   line-height: 39px;
   color: #6F6F6F;
-  margin-bottom: 80px;
 }
 
-.intro__body {
+.bike__text {
   max-width: 420px;
-}
-
-.intro__body p {
   margin-bottom: 20px;
 }
 
-.btn--intro {
-  margin-top: 60px;
+.bike__link {
+  margin-top: 80px;
+  display: inline-block;
+  background-color: #131313;
+  color: #fff;
+  padding: 28px 81px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+}
+
+.bike-slider .slick-dots {
+  right: 0;
+  left: auto;
+  top: 50px;
+}
+
+.bike__list {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bike__list-item {
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 58px;
+}
+
+.bike__list-num {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bike__list-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: auto 0;
 }
 
 .advantages {
