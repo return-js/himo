@@ -266,6 +266,80 @@ ul {
   width: 50%;
 }
 
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.order__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.order__text {
+  max-width: 300px;
+}
+
+.order__input {
+  display: block;
+  width: 100%;
+  margin-top: 40px;
+  padding: 10px 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  border: 0;
+  border-bottom: 1px solid #131313;
+}
+
+.order__input::placeholder {
+  opacity: 0.75;
+  color: #6F6F6F;
+}
+
+.order__form {
+  width: 420px
+}
+
+.order__choice-text {
+  color: #6F6F6F;
+  margin: 20px 0 10px;
+  opacity: 0.75;
+}
+
+.order__labels {
+  display: flex;
+  gap: 0 23px;
+}
+
+.order__label {
+  width: 80px;
+  height: 12px;
+  background: #6F6F6F;
+  border-radius: 30px;
+  display: block;
+  cursor: pointer;
+}
+
+.order__label.white {
+  background: #fff;
+  border: 1px solid #6F6F6F;
+}
+
+.order__label.red {
+  background: #FF4040;
+}
+
+.order__label input {
+  display: none;
+}
+
 .footer {
   padding: 20px 0;
   background: #131313;
