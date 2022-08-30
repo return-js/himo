@@ -266,79 +266,118 @@ ul {
   width: 50%;
 }
 
-.order {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 50px;
+.price {
+  margin-bottom: 100px;
 }
 
-.order__title {
-  font-weight: 700;
+.price__inner {
+  position: relative;
+}
+
+.form {
+  max-width: 420px;
+}
+
+.form__title {
+  margin-bottom: 40px;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
-.order__text {
+.form__text {
   max-width: 300px;
+  margin-bottom: 30px;
 }
 
-.order__input {
-  display: block;
+.form__input-name,
+.form__input-phone {
   width: 100%;
-  margin-top: 40px;
-  padding: 10px 0;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 120%;
-  border: 0;
+  border: none;
   border-bottom: 1px solid #131313;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  outline: none;
 }
 
-.order__input::placeholder {
-  opacity: 0.75;
+.form__input-name::placeholder,
+.form__input-phone::placeholder,
+.form-input__text {
   color: #6F6F6F;
+  opacity: 0.5;
 }
 
-.order__form {
-  width: 420px
+.form-input__text {
+  margin-bottom: 10px;
 }
 
-.order__choice-text {
-  color: #6F6F6F;
-  margin: 20px 0 10px;
-  opacity: 0.75;
-}
-
-.order__labels {
+.form__label-box {
   display: flex;
-  gap: 0 23px;
 }
 
-.order__label {
+.form__label + .form__label {
+  margin-left: 23px;
+}
+
+.form__input-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__input-radio:checked + .form__bike {
+  display: block;
+}
+
+.form__bike-price {
+  font-size: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF4040;
+}
+
+.form__bike {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.form__radio-style {
+  border-radius: 30px;
   width: 80px;
   height: 12px;
-  background: #6F6F6F;
-  border-radius: 30px;
-  display: block;
-  cursor: pointer;
 }
 
-.order__label.white {
-  background: #fff;
+.form__radio-style--grey {
+  background: #6F6F6F;
+}
+.form__radio-style--white {
+  background: #ffffff;
   border: 1px solid #6F6F6F;
 }
-
-.order__label.red {
+.form__radio-style--red {
   background: #FF4040;
 }
 
-.order__label input {
-  display: none;
-}
+
+
+
+
+
+
+
+
+
 
 .footer {
   padding: 20px 0;
