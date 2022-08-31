@@ -335,7 +335,7 @@ ul {
 .form__bike-price {
   font-size: 32px;
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
   right: 0;
   width: 220px;
@@ -343,6 +343,18 @@ ul {
   justify-content: center;
   align-items: center;
   border: 1px solid #FF4040;
+  border-radius: 50%;
+}
+
+.form__bike-price::after {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  border: 1px solid #FF4040;
+  border-radius: 50%;
+  top: 12px;
+  left: 0;
 }
 
 .form__bike {
